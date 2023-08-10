@@ -1,0 +1,9 @@
+torch
+torchvision
+requests
+pandas
+# argparser
+tqdm
+torchinfo
+matplotlib
+-e .
