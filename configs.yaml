@@ -1,0 +1,17 @@
+# Setup device-agnostic code
+config:
+  # device: ""
+  # NUM_WORKERS: os.cpu_count()
+  BATCH_SIZE: 16
+  in_channels: 3
+  hidden_units: 10
+  learning_rate: 0.001
+  epochs: 10
+  
+
+
+data:
+  data_folder: "data/"
+  image_folder: "pizza_steak_sushi"
+  data_source: "https://github.com/mrdbourke/pytorch-deep-learning/raw/main/data/pizza_steak_sushi.zip"
+  class_names: ["Pizza","Steak","Sushi"]
